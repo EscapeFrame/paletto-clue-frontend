@@ -1,11 +1,11 @@
-import Home from './home'
+import Home from './main_component/home'
+
+
 function App() {
 
   return (
     <>
       <Home />
-      <h1>안녕</h1>
-      <p>본문</p>
     </>
   )
 }

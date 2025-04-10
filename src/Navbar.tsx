@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import styles from './css/Navbar.module.css'; // 필요한 CSS 스타일
+import images from "./assets/CLUE_Icons.svg";
+
 
 export default function Header() {
     const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -7,18 +9,9 @@ export default function Header() {
     const toggleDropdown = () => setDropdownVisible(!dropdownVisible);
 
     return (
-        <header className={styles.navbar}>
+        <div className={styles.navbar}>
             <div className={styles.container}>
-                {/* 왼쪽 브랜드 */}
-                <a href="#" className={styles.brand}>clue이미지 박기</a>
-
-                {/* 토글 버튼 */}
-                <button
-                    className={styles.toggleButton}
-                    onClick={toggleDropdown}
-                >
-                    ☰
-                </button>
+                <a href="/" className={styles.brand}><img src={images} alt="My Image" className={styles.image}/></a>
 
                 {/* 네비게이션 바 내부 */}
                 <nav className={styles.navbarNav}>
@@ -48,6 +41,6 @@ export default function Header() {
                     </div>
                 </nav>
             </div>
-        </header>
+        </div>
     );
 }
