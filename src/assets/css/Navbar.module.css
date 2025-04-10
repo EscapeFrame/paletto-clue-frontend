@@ -1,0 +1,98 @@
+/* Navbar.module.css */
+
+/* Navbar 스타일 */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    padding: 0.625rem 1.25rem; /* 10px 20px -> 0.625rem 1.25rem */
+    z-index: 1000;
+    margin: 0; /* 마진을 0으로 설정하여 화면에 전부 나오도록 함 */
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%; /* 최대 너비를 100%로 설정하여 화면에 꽉 차게 함 */
+    margin: 0; /* 마진을 0으로 설정하여 모든 요소가 화면에 보이도록 함 */
+    padding: 0; /* 패딩도 0으로 설정하여 화면 공간을 최대화 */
+}
+  
+.brand {
+    font-size: 1.5rem; /* 24px -> 1.5rem */
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    margin: 0; /* 마진을 없애서 공간 최적화 */
+}
+  
+.toggleButton {
+    display: none; /* 모바일 화면에서만 보이게 */
+    font-size: 1.5rem; /* 24px -> 1.5rem */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0; /* 마진을 없애서 공간 최적화 */
+}
+  
+.navbarNav {
+    display: flex;
+    align-items: center;
+    margin: 0; /* 마진을 없애서 공간 최적화 */
+}
+  
+.navLinks {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+  
+.navItem {
+    margin-right: 1.25rem; /* 20px -> 1.25rem */
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem; /* 16px -> 1rem */
+}
+  
+.dropdownContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1001;
+}
+  
+.dropdownButton {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem; /* 16px -> 1rem */
+    z-index: 1002;
+    color: black;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: 100%; /* 버튼 바로 아래에 드롭다운 위치 */
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem; /* 4px -> 0.25rem */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* 8px 16px -> 0.5rem 1rem */
+    min-width: 12.5rem; /* 200px -> 12.5rem */
+    z-index: 999;
+    padding: 0.625rem 0; /* 10px 0 -> 0.625rem 0 */
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdownItem {
+    display: block;
+    padding: 0.5rem 1rem; /* 8px 16px -> 0.5rem 1rem */
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem; /* 14px -> 0.875rem */
+}
