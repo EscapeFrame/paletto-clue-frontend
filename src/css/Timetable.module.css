@@ -10,6 +10,10 @@
     height: 245px;
     padding: 19px;
   }
+
+  .td_smaller{
+    padding:8px 17px;
+  }
   
   thead {
     font-weight: bold;
@@ -19,12 +23,12 @@
   
   th {
     text-align: center;
-    padding: 0.5em 0.5em;
+    padding: 6px 12px;
     vertical-align: middle;
   }
   
   td {
-    padding: 1em 2em;
+    padding: 14px 30px;
     vertical-align: middle;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     background: #fff;

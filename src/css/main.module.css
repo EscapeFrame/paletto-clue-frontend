@@ -1,24 +1,39 @@
 .topContainer {
     background: #EBF5FF;
-    min-height: 100vh;
+    min-height: 100%;
+    height: auto;
 }
+
+html { 
+    background: #EBF5FF;
+    min-height: 100%; 
+    margin: 0; 
+    padding: 0;
+}
+
 .container {
-    padding-top: 50px;
+    padding-top: 70px;
     background: #EBF5FF;
     left: 150px;
     right: 150px;
     position: fixed;
+    border-radius: 30px !important;
 }
 
 .side_by_side {
     display: flex;
-    gap: 20px;
-    padding: 1.5em;
+    padding: 18px;
     background: #fff;
 }
 .divider {
     width: 2px;
     background-color: #86c1ff;
-    margin: 0 2rem; /* 선 주위의 간격 */
-    height: 570px; /* 컨테이너 높이에 맞게 설정 */
+    margin: 20px;
+    height: auto;
 }
+h1 {
+    line-height: 8px;
+  }
+p {
+    line-height: 8px;
+  }
