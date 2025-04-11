@@ -1,30 +1,29 @@
-import React from "react";
 import { Steps } from "antd";
 
-const description = "This is a description.";
-const App: React.FC = () => (
+const description = "수업내용";
+const TimeLine = () => (
   <Steps
     direction="vertical"
     current={1}
     items={[
       {
-        title: "Finished",
+        title: "운영체제",
         description,
       },
       {
-        title: "In Progress",
+        title: "운영체제",
         description,
       },
       {
-        title: "Waiting",
+        title: "수학",
         description,
       },
       {
-        title: "Waiting",
+        title: "영어",
         description,
       },
     ]}
   />
 );
 
-export default App;
+export default TimeLine;
