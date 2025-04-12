@@ -1,39 +1,43 @@
+
 .step_box {
-	margin: 0 20px 60px 20px;
-	display: block;
-	width: 420px;
-	padding: 8px 16px;
-	border: 1px solid #e2e2e2;
-	border-radius: 8px;
-	background-color: #fff;
-	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
-	box-sizing: border-box;
-	line-height: 1.5;
-  }
+    margin: 0 1.25em 3.75em 1.25em;
+    display: block;
+    width: 26.25rem;
+    padding: 0.5em 1em;
+    border: 0.06em solid #e2e2e2;
+    border-radius: 0.5em;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0.06em 0.19em rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    line-height: 1.5;
+}
   
   .step_box p {
-	font-size: 14px;
+	font-size: 0.88em;
 	margin: 0;
 	padding: 0;
 	line-height: 1.2;
   }
   
   .customStep :global(.ant-steps-item-tail::after) {
-	height: 100px !important;
-	margin-left: 10px; 
-  }
+	height: 6.25rem !important;
+	margin-left: 0.63rem;
+	background-color: #86C1FF;
+  } 
+
   
   .customIcon {
-	width: 50px;
-	height: 50px;
+	width: 3.13rem;
+	height: 3.13rem;
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 14px;
+	font-size: 0.88rem;
 	font-weight: bold;
 	color: #fff;
   }
+  /* 동그라미 css */
   
   .status_done {
 	background-color: #1890ff;
@@ -42,7 +46,8 @@
   .status_pending {
 	background-color: white;
 	color: black;
-	border: 1px solid skyblue;
+	border: 0.06em solid #86C1FF;
 
   }
   
+  /* 상태 css */

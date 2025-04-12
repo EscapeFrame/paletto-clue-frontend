@@ -14,7 +14,7 @@ const TimeLine = () => {
   return (
     <Steps
       direction="vertical"
-      current={current}
+      current={current} //현재 몇교시에 있는지 나타냄
       className={styles.customStep}
       items={steps.map((step, index) => {
         // 상태 판단

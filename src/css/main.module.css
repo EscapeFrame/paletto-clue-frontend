@@ -1,3 +1,4 @@
+
 .topContainer {
     background: #EBF5FF;
     min-height: 100%;
@@ -12,28 +13,28 @@ html {
 }
 
 .container {
-    padding-top: 70px;
+    padding-top: 4.38em;
     background: #EBF5FF;
-    left: 150px;
-    right: 150px;
+    left: 9.38em;
+    right: 9.38em;
     position: fixed;
-    border-radius: 30px !important;
+    border-radius: 1.88em !important;
 }
 
 .side_by_side {
     display: flex;
-    padding: 18px;
+    padding: 1.13em;
     background: #fff;
 }
 .divider {
-    width: 2px;
+    width: 0.13em;
     background-color: #86c1ff;
-    margin: 20px;
+    margin: 1.25em;
     height: auto;
 }
 h1 {
-    line-height: 8px;
+    line-height: 0.50em;
   }
 p {
-    line-height: 8px;
-  }
+    line-height: 0.50em;
+  } 

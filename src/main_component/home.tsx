@@ -15,7 +15,6 @@ export default function Home() {
                     </h1>
                     <p>빠르게 나의 수업을 확인하세요</p>
                 </div>
-
                 <div className={styles.side_by_side}>
                     <div>
                         <h2 style={{ textAlign: 'center' }}>시간표</h2>
@@ -24,7 +23,9 @@ export default function Home() {
                     <div className={styles.divider}></div>
                     <div>
                         <p>학습 타임라인</p>
-                        <Demo />
+                        <div>
+                            <Demo />
+                        </div>
                     </div>
                 </div>
             </div>
