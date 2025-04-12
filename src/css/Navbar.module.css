@@ -27,8 +27,6 @@
     margin: 0;
 }
   
-
-  
 .navbarNav {
     display: flex;
     align-items: center;
@@ -88,6 +86,7 @@
     color: #000;
     font-size: 0.875rem;
 }
+
 .image {
     width: auto;
     height: 25px;

@@ -1,4 +1,4 @@
-import Header from '../Navbar';
+import Navbar from '../Navbar';
 import Demo from './TimeLine';
 import Timetable from './Timetable';
 import styles from '../css/main.module.css';
@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div className={styles.topContainer}>
             <div className={styles.container}>
-                <Header />
+                <Navbar />
                 <div>
                     <h1>
                         나의 일과알아보기

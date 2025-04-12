@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import styles from './css/Navbar.module.css'; // 필요한 CSS 스타일
+import styles from './css/Navbar.module.css';
 import images from "./assets/CLUE_Icons.svg";
 
-
-export default function Header() {
+export default function Navbar() {
     const [dropdownVisible, setDropdownVisible] = useState(false);
 
     const toggleDropdown = () => setDropdownVisible(!dropdownVisible);
