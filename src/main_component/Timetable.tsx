@@ -21,7 +21,7 @@ const Timetable = () => {
     ['과목', '과목', '과목', '과목', '과목'],
     ['과목', '과목', '과목', '과목', '과목'],
     ['과목', '과목', '과목', '과목', '-'],
-  ];
+  ]; //json body?
 
   return (
     <div className={styles.tableWrapper}>

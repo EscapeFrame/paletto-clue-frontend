@@ -1,7 +1,6 @@
 
 .topContainer {
     background: #EBF5FF;
-    min-height: 100%;
     height: auto;
 }
 
@@ -24,14 +23,21 @@ html {
 .side_by_side {
     display: flex;
     padding: 1.13em;
+    justify-content: center;
     background: #fff;
 }
-.divider {
+/* .divider {
     width: 0.13em;
     background-color: #86c1ff;
-    margin: 1.25em;
-    height: auto;
+    margin: 3em;
+} */
+
+.timeLine_side {
+    border-left: 0.13em solid #86c1ff;
+    margin-left: 3em;
+    padding-left: 3em;
 }
+
 h1 {
     line-height: 0.50em;
   }
