@@ -1,16 +1,16 @@
 
-.step_box {
+  .step_box {
     margin: 0 1.25em 3.75em 1.25em;
     display: block;
-    width: 34em;
+    min-width: 17em;
+    max-width: 34em;
     padding: 0.5em 1em;
     border: 0.06em solid #e2e2e2;
     border-radius: 0.5em;
-    background-color: hsl(0, 0%, 100%);
     box-shadow: 0 0.06em 0.19em rgba(0, 0, 0, 0.05);
     box-sizing: border-box;
     line-height: 1.5;
-}
+  }
   
   .step_box p {
 	font-size: 0.88em;
