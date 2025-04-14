@@ -5,10 +5,14 @@
     overflow: hidden;
 }
 
+html, body { 
+    background: #EBF5FF;
+    margin: 0 0; 
+    padding: 0 0;
+}
+
+
 .container {
-    padding-top: 4.38em;
     background: #FFF;
-    left: 0;
-    right: 0;
-    position: fixed;
+    margin:auto 150px 30px 150px;
 }

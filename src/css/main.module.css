@@ -4,13 +4,10 @@ html, body {
     padding: 0 0;
 }
 
+
 .container {
-    padding-top: 4.38em;
     background: #EBF5FF;
-    left: 9.38em;
-    right: 9.38em;
-    position: fixed;
-    border-radius: 1.88em !important;
+    margin:auto 150px 30px 150px;
 }
 
 .side_by_side {
@@ -18,6 +15,8 @@ html, body {
     padding: 1.13em;
     justify-content: center;
     background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
 }
 /* .divider {
     width: 0.13em;

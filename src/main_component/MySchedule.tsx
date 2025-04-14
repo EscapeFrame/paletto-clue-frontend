@@ -2,9 +2,9 @@ import styles from '../css/main.module.css';
 import Timetable from './Timetable';
 import Demo from './TimeLine';
 
-export default function My() {
+export default function MySchedule() {
     return (
-        <div>
+        <div className={styles.container}>
             <div>
                 <h1>
                     나의 일과알아보기
