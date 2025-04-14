@@ -1,6 +1,6 @@
 import styles from '../css/Timetable.module.css';
 
-type Subjects = {
+interface Subjects {
   [day: string]: string[];
 };
 

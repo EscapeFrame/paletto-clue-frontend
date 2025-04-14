@@ -1,14 +1,7 @@
-
-.topContainer {
+html, body { 
     background: #EBF5FF;
-    height: auto;
-}
-
-html { 
-    background: #EBF5FF;
-    min-height: 100%; 
-    margin: 0; 
-    padding: 0;
+    margin: 0 0; 
+    padding: 0 0;
 }
 
 .container {

@@ -1,13 +1,9 @@
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: #FFFFFF;
     outline: solid 0.06em #CCCCCC;
     padding: 0.63em 1.25em;
-    z-index: 1000;
-
+    box-sizing: border-box;
 }
   
 .container {

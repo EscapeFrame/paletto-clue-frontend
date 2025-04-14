@@ -1,0 +1,14 @@
+
+.topContainer {
+    background: #FFF;
+    height: auto;
+    overflow: hidden;
+}
+
+.container {
+    padding-top: 4.38em;
+    background: #FFF;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
