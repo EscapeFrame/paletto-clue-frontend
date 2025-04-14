@@ -1,0 +1,27 @@
+import styles from '../css/main.module.css';
+import Timetable from './Timetable';
+import Demo from './TimeLine';
+
+export default function My() {
+    return (
+        <div>
+            <div>
+                <h1>
+                    나의 일과알아보기
+                </h1>
+                <p>빠르게 나의 수업을 확인하세요</p>
+            </div>
+            <div className={styles.side_by_side}>
+                <div>
+                    <h2>시간표</h2>
+                    <Timetable />
+                </div>
+                {/* <div className={styles.divider}></div> */}
+                <div className={styles.timeLine_side}>
+                    <p>학습 타임라인</p>
+                    <Demo />
+                </div>
+            </div>
+        </div>
+    )
+}

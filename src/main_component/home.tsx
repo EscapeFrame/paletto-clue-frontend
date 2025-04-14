@@ -1,32 +1,16 @@
+import styles from '../css/home.module.css';
+import MySchedule from './MySchedule';
+import GoToClass from './GoToClass';
 import Navbar from '../Navbar';
-import Demo from './TimeLine';
-import Timetable from './Timetable';
-import styles from '../css/main.module.css';
-
 
 export default function Home() {
     return (
-        <div className={styles.topContainer}>
-            <div className={styles.container}>
-                <Navbar />
-                    <div>
-                        <h1>
-                            나의 일과알아보기
-                        </h1>
-                        <p>빠르게 나의 수업을 확인하세요</p>
-                    </div>
-                    <div className={styles.side_by_side}>
-                        <div>
-                            <h2>시간표</h2>
-                            <Timetable />
-                        </div>
-                        {/* <div className={styles.divider}></div> */}
-                        <div className={styles.timeLine_side}>
-                            <p>학습 타임라인</p>
-                                <Demo />
-                        </div>
-                    </div>
-            </div>
+        <div className={styles.container}>
+            <Navbar />
+            <MySchedule />
+            <GoToClass />
+            
+
         </div>
     );
 }
