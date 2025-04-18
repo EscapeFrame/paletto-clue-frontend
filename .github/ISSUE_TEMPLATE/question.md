@@ -7,15 +7,6 @@ assignees: ''
 
 ---
 
----
-name: ❓ 질문 / 토의
-about: 궁금한 점이나 논의가 필요한 내용을 남겨주세요.
-title: "[Question] "
-labels: question
-assignees: ''
-
----
-
 ## ❓ 질문/토의 내용
 상세하게 적어주세요.
 
