@@ -2,7 +2,7 @@
 name: Feature
 about: 새로운 기능 추가
 title: ''
-labels: ''
+labels: 개발
 assignees: ''
 
 ---
