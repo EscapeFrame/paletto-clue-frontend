@@ -45,4 +45,4 @@ body:
     attributes:
       label: 담당자
       description: 이 이슈를 맡을 GitHub 사용자명을 입력해주세요.
-      placeholder: @
+      placeholder: 
