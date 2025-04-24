@@ -2,7 +2,7 @@
 name: Question
 about: 궁금한 점 혹은 논의 사항
 title: ''
-labels: 제안
+labels: suggest
 assignees: ''
 
 ---

@@ -2,7 +2,7 @@
 name: Refactor
 about: 코드 개선이 필요할 때 작성
 title: ''
-labels: 설계
+labels: ''
 assignees: ''
 
 ---

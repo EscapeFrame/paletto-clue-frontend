@@ -2,7 +2,7 @@
 name: Design
 about: 디자인 관련 의견 수정사항
 title: ''
-labels: 수정
+labels: design
 assignees: ''
 
 ---
