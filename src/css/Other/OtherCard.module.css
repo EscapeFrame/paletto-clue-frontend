@@ -1,0 +1,30 @@
+.card {
+    display: block;
+    width: 10rem;
+    height: 13rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: linear-gradient(to bottom, white, #f3f4f6);
+    transition: box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  }
+  
+  .logoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  
+  .text {
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #4b5563;
+    padding-bottom: 0.5rem;
+  }
+  

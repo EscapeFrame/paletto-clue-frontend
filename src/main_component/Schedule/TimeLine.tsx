@@ -1,8 +1,8 @@
 import { Steps } from "antd";
-import styles from "../css/TimeLine.module.css";
+import styles from "../../css/Schedule/TimeLine.module.css";
 
 const TimeLine = () => {
-  const current = 2; //백엔드 맡기기 or 시간보고 계산해서 하기?
+  const current = 0; //백엔드 맡기기 or 시간보고 계산해서 하기?
 
   const steps = [
     { subject: "운영체제", period: "1교시" },

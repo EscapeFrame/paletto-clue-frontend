@@ -1,12 +1,12 @@
-import Home from './main_component/home'
+import { BrowserRouter } from 'react-router-dom';
+import Home from './main_component/home';
 
 function App() {
-
   return (
-    <div>
-      <Home />
-    </div>
-  )
+    <BrowserRouter>
+    <Home />
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;

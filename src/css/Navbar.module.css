@@ -2,7 +2,7 @@
     width: 100%;
     background-color: #FFFFFF;
     outline: solid 0.06em #CCCCCC;
-    padding: 0.63em 1.25em;
+    padding: 0.63em 0;
     box-sizing: border-box;
 }
   
@@ -10,9 +10,10 @@
     display: flex;
     align-items: center;
     max-width: 100%;
-    margin: 0;
+    margin: 0 150px;
     align-items: center;
     padding: 0;
+
 }
   
 .brand {
@@ -25,8 +26,8 @@
   
 .navbarNav {
     display: flex;
-    align-items: center;
-    margin: 0;
+    position: absolute;
+    right: 150px;
 }
   
 .navLinks {
@@ -34,6 +35,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
   
 .navItem {
@@ -86,6 +88,5 @@
 .image {
     width: auto;
     height: 25px;
-    padding-left: 50px;
     justify-content: left;
 }
