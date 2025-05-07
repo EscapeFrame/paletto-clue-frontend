@@ -1,5 +1,5 @@
-import styles from '../../css/Schedule/TimeTable.module.css';
-import axios from 'axios';
+import styles from '@/shared/css/Home/Schedule/TimeTable.module.css';
+import axios, { AxiosResponse } from 'axios';
 import { useEffect, useState } from 'react';
 
 interface Subjects {
@@ -42,7 +42,7 @@ const TimeTable = () => {
     const fetchSchedule = async () => {
       try {
         // const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6'; //임시로 아무거나 넣어놈
-        const response = await axios.get('http://10.150.1.233:8080/api/schedules', { //로컬스토리지 저장하기
+        const response: AxiosResponse<Subjects> = await axios.get('http://10.150.1.233:8080/api/schedules', { //로컬스토리지 저장하기
           params: {
             grade,
             classNumber,

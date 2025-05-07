@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from './css/Navbar.module.css';
+import styles from '@/shared/css/Home/Navbar.module.css'
 
 export default function Navbar() {
     const [dropdownVisible, setDropdownVisible] = useState<boolean>(false);

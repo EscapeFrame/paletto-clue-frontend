@@ -1,4 +1,4 @@
-import styles from '../../css/Other/Other.module.css';
+import styles from '@/shared/css/Home/Other/Other.module.css';
 import Card from './OtherCard';
 
 

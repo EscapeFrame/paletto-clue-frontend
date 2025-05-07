@@ -1,4 +1,4 @@
-import styles from '../../css/Other/OtherCard.module.css';
+import styles from '@/shared/css/Home/Other/OtherCard.module.css';
 import { Link } from 'react-router-dom';
 
 type OtherCardType = {

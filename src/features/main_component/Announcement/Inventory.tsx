@@ -1,4 +1,4 @@
-import styles from '../../css/Accouncement/Inventory.module.css';
+import styles from '@/shared/css/Home/Accouncement/Inventory.module.css';
 import { useNavigate } from 'react-router-dom';
 
 interface InventoryContentType {

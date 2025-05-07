@@ -1,4 +1,4 @@
-import styles from '../../css/Class/GoToClass.module.css';
+import styles from '@/shared/css/Home/Class/GoToClass.module.css';
 
 interface MiniCardProps {
   title: string;

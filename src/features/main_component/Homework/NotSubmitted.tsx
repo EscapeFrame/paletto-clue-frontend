@@ -1,5 +1,4 @@
-import React from 'react';
-import styles from '../../css/Homework/NotSubmitted.module.css'
+import styles from '@/shared/css/Home/Homework/NotSubmitted.module.css'
 import { Posts } from './Theme';
 import { Card } from './HomeworkCard';
 

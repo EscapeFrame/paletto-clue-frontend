@@ -1,4 +1,4 @@
-import styles from '../../css/Schedule/main.module.css';
+import styles from '@/shared/css/Home/Schedule/main.module.css';
 import TimeTable from './TimeTable';
 import Demo from './TimeLine';
 

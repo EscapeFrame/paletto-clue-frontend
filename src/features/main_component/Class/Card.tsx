@@ -1,4 +1,4 @@
-import styles from '../../css/Class/Card.module.css'
+import styles from '@/shared/css/Home/Class/Card.module.css'
 
 interface CardProps {
   tittle: string;

@@ -1,4 +1,4 @@
-import styles from '../../css/Homework/HomeworkCard.module.css';
+import styles from '@/shared/css/Home/Homework/HomeworkCard.module.css';
 import { useNavigate } from 'react-router-dom'; // ✅ React Router용 hook
 
 interface CardType {

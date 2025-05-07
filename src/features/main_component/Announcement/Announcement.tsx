@@ -1,4 +1,4 @@
-import styles from '../../css/Accouncement/Announcement.module.css';
+import styles from '@/shared/css/Home/Accouncement/Announcement.module.css';
 // import Inventory from './Inventory.tsx';
 
 export default function Announcement() {

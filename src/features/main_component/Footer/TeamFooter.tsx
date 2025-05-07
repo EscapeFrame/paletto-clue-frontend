@@ -1,4 +1,4 @@
-import styles from '../../css/footer/TeamFooter.module.css';
+import styles from '@/shared/css/Home/footer/TeamFooter.module.css';
 
 export default function TeamFooter() {
   return (
