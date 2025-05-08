@@ -1,8 +1,10 @@
 import styles from '@/shared/css/Home/Schedule/TimeTable.module.css';
 import axios, { AxiosResponse } from 'axios';
+import { useRecoilState } from 'recoil';
+import { scheduleState } from '@/shared/recoil/atoms';
 import { useEffect, useState } from 'react';
 
-interface Subjects {
+export interface Subjects {
   [day: string]: string[];
 };
 
@@ -35,7 +37,7 @@ const TimeTable = () => {
   // };
   const days: string[] = ['1','2', '3', '4', '5'];
 
-  const [schedule, setSchedule] = useState<Subjects | null>(null);
+  const [schedule, setSchedule] = useRecoilState(scheduleState);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -59,7 +61,6 @@ const TimeTable = () => {
         setLoading(false); // 로딩 완료
       }
     };
-
     fetchSchedule();
   },[grade, classNumber])
 
