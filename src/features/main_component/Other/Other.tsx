@@ -1,5 +1,5 @@
 import styles from '@/shared/css/Home/Other/Other.module.css';
-import Card from './OtherCard';
+import Card from './OtherCard'
 import contents from '@/shared/css/Home/Other/data';
 
 
