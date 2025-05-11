@@ -5,18 +5,19 @@
 
 .side_by_side {
     display: flex;
+    max-height: 525px;
     padding: 1.13em;
     justify-content: center;
     background: #fff;
     border-radius: 8px;
-    overflow: hidden;
 }
 .font {
     margin-top: 40px;
 }
 
 .timeLine_side {
+    overflow : auto;
     border-left: 0.13em solid #86c1ff;
-    margin-left: 3em;
-    padding-left: 3em;
+    margin-left: 1em;
+    padding-left: 1em;
 }

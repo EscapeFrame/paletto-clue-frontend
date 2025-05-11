@@ -1,11 +1,11 @@
 import styles from '@/shared/css/Home/home.module.css';
-import MySchedule from '@/features/main_component/Schedule/MySchedule';
-import GoToClass from '@/features/main_component/Class/GoToClass';
+import MySchedule from '@/features/Main_component/Schedule/MySchedule';
+import GoToClass from '@/features/Main_component/Class/GoToClass';
 import Navbar from '@/widgets/Navbar';
-import NotSubmitted from '@/features/main_component/Homework/NotSubmitted';
-import Announcement from '@/features/main_component/Announcement/Announcement';
-import Other from '@/features/main_component/Other/Other';
-import TeamFooter from '@/features/main_component/Footer/TeamFooter';
+import NotSubmitted from '@/features/Main_component/Homework/NotSubmitted';
+import Announcement from '@/features/Main_component/Announcement/Announcement';
+import Other from '@/features/Main_component/Other/Other';
+import TeamFooter from '@/features/Main_component/Footer/TeamFooter';
 
 export default function Home() {
     return (

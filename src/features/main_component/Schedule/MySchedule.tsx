@@ -12,7 +12,7 @@ export default function MySchedule() {
                 <p>빠르게 나의 수업을 확인하세요</p>
             </div>
             <div className={styles.side_by_side}>
-                <div>
+                <div style={{overflow:'hidden'}}>
                     <h2>시간표</h2>
                     <TimeTable />
                 </div>
