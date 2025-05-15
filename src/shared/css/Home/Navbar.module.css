@@ -4,6 +4,8 @@
     outline: solid 0.06em #CCCCCC;
     padding: 0.63em 0;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
 }
   
 .container {
@@ -11,9 +13,7 @@
     align-items: center;
     max-width: 100%;
     margin: 0 150px;
-    align-items: center;
     padding: 0;
-
 }
   
 .brand {
@@ -28,6 +28,8 @@
     display: flex;
     position: absolute;
     right: 150px;
+    align-items: center;
+    height: 100%;
 }
   
 .navLinks {
@@ -35,7 +37,8 @@
     margin: 0;
     padding: 0;
     list-style: none;
-    display: flex;
+    align-items: center;
+    height: 100%;
 }
   
 .navItem {
@@ -43,6 +46,9 @@
     text-decoration: none;
     color: #000;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
   
 .dropdownContainer {
@@ -54,12 +60,25 @@
 }
   
 .dropdownButton {
-    background-color: transparent;
-    border: none;
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     cursor: pointer;
     font-size: 1rem;
     z-index: 1002;
     color: black;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdownButton img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .dropdownMenu {
@@ -69,10 +88,10 @@
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 0.25rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    min-width: 12.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    min-width: 16.5rem;
     z-index: 999;
-    padding: 0.625rem 0;
+    padding: 0.625rem 0 0 0;
     display: flex;
     flex-direction: column;
 }
@@ -89,4 +108,36 @@
     width: auto;
     height: 25px;
     justify-content: left;
+}
+
+.myImage {
+    border: 1px solid #CCCCCC;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 1rem;
+    z-index: 1002;
+    color: black;
+    overflow: hidden;
+    margin: 0.5rem 1rem;
+}
+
+.myImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logout {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 0.875rem;
+    background-color: #F3F3F3;
+    color: #666666;
 }
