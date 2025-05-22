@@ -1,8 +1,8 @@
 import { useParams, useSearchParams } from 'react-router-dom';
 
 import Navbar from "@/widgets/Navbar";
-import ClassRoomInfo from '@/features/ClassComponent/ClassRoomInfo/ClassRoomInfo';
-import LessonGroup from '@/features/ClassComponent/ClassRoomInfo/LessonGroup';
+import ClassRoomInfo from '@/features/ClassComponent/classRoomInfo/ClassRoomInfo';
+import LessonGroup from '@/features/ClassComponent/classRoomInfo/LessonGroup';
 import { Posts } from '@/shared/theme/ClassRoomInfoTheme';
 
 export default function ClassRoom() {
